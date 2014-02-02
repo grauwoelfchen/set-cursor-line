@@ -11,6 +11,7 @@
 ## Requirements
 
 * [jQuery](https://github.com/jquery/jquery)
+* [jQuery Autosize](https://github.com/jackmoore/autosize) (optional)
 * [set-number](https://github.com/grauwoelfchen/set-number) (optional)
 
 ## Usage
@@ -33,7 +34,7 @@ $("#id")
   });
 ```
 
-see also `example/index.html`
+see also [example/index.html](https://github.com/grauwoelfchen/set-cursor-line/blob/master/example/index.html)
 
 
 ## Development
@@ -47,7 +48,6 @@ see also `example/index.html`
 # test
 % grunt qunit # or see `test/set-cursor-line.html` via browser
 ```
-
 
 ## Todo
 
