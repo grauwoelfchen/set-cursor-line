@@ -30,9 +30,9 @@
       var styles = $.map(prefixes, function(prefix) {
         return "background-image: " + prefix + "-gradient(" + gradient + ");"
       });
-      textarea.attr("style", textarea.attr("style") + " " + styles.join(" "));
-      textarea.css("background-repeat", "no-repeat");
+      textarea.attr("style", textarea.attr("style") + "; " + styles.join(" "));
       textarea.css("background-size",   "100% 100%, 100% 100%, 100% " + height + "px");
+      textarea.css("background-repeat", "no-repeat");
       return;
     };
     var keys = { // enough ?
