@@ -18,7 +18,7 @@
       var lineHeight = parseInt(textarea.css("line-height"), 10);
       if (isNaN(lineHeight)) {
         // TODO "normal" line-height ;(
-        lineHeight = defaultLineHeight;
+        lineHeight = options.defaultLineHeight;
       }
       var height   = (lineCount + atStart) * lineHeight
         , prefixes = [
@@ -30,9 +30,9 @@
       var styles = $.map(prefixes, function(prefix) {
         return "background-image: " + prefix + "-gradient(" + gradient + ");"
       });
-      textarea.attr("style", textarea.attr("style") + " " + styles.join(" "));
-      textarea.css("background-repeat", "no-repeat");
+      textarea.attr("style", textarea.attr("style") + "; " + styles.join(" "));
       textarea.css("background-size",   "100% 100%, 100% 100%, 100% " + height + "px");
+      textarea.css("background-repeat", "no-repeat");
       return;
     };
     var keys = { // enough ?
