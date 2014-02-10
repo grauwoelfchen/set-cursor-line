@@ -18,7 +18,7 @@
       var lineHeight = parseInt(textarea.css("line-height"), 10);
       if (isNaN(lineHeight)) {
         // TODO "normal" line-height ;(
-        lineHeight = defaultLineHeight;
+        lineHeight = options.defaultLineHeight;
       }
       var height   = (lineCount + atStart) * lineHeight
         , prefixes = [
