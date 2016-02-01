@@ -4,7 +4,7 @@
  * Copyright (c) 2014 Yasuhiro Asaka (http://grauwoelfchen.net)
  *
  * License:: MIT License
- * Version:: 0.0.1
+ * Version:: 0.0.2
  * Author::  Yasuhiro Asaka (grauwoelfchen@gmail.com)
  */
 (function($) {
