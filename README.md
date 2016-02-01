@@ -1,5 +1,7 @@
 # SetCursorLine jQuery Plugin
 
+[![Build Status](https://semaphoreci.com/api/v1/projects/94f6741d-ca37-47f1-a30b-1773a503c6bf/680478/badge.svg)](https://semaphoreci.com/grauwoelfchen/set-cursor-line)
+
 `:set cursorline` (underline) for textarea
 
 * Use CSS3 linear-gradient
