@@ -61,6 +61,7 @@ see also [example/index.html](https://github.com/grauwoelfchen/set-cursor-line/b
 
 ## Histroy
 
+* 20160202 Fix background style issue (0.0.2)
 * 20140210 Fix defaultLineHeight bug
 * 20140203 Initial Release (0.0.1)
 

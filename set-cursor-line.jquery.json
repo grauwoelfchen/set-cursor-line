@@ -2,7 +2,7 @@
   "name": "set-cursor-line",
   "title": "SetCursorLine",
   "description": "SetCursorLine jQuery Plugin for textarea",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/grauwoelfchen/set-cursor-line",
   "author": {
     "name": "Yasuhiro Asaka",
