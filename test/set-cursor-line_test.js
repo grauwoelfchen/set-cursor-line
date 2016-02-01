@@ -38,9 +38,9 @@
     var expected = [
       "height: 300px;"
       // setcursorline values
-    , "background-image: linear-gradient(transparent 15px, black 16px, transparent 1px);"
+    , "background-image: -webkit-linear-gradient(top, transparent 15px, black 16px, transparent 1px);"
     , "background-size: 100% 100%, 100% 100%, 100% 16px;"
-    , "background-repeat: no-repeat;"
+    , "background-repeat: no-repeat no-repeat; "
     ].join(" ");
     strictEqual(textarea.attr("style"), expected, "should have linear gradients for'background-image'");
   });
