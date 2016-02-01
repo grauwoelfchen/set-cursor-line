@@ -32,7 +32,8 @@
       });
       textarea.attr("style", textarea.attr("style") + "; " + styles.join(" "));
       textarea.css("background-size",   "100% 100%, 100% 100%, 100% " + height + "px");
-      textarea.css("background-repeat", "no-repeat");
+      // two value syntax
+      textarea.css("background-repeat", "no-repeat no-repeat");
       return;
     };
     var keys = { // enough ?
